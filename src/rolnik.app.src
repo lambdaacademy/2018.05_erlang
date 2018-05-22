@@ -6,6 +6,7 @@
     {applications, [
         kernel,
         stdlib,
+        gen_smtp,
         grisp
     ]},
     {env,[]},
