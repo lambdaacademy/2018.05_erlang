@@ -1,0 +1,11 @@
+% Add hosts
+{host, {192,168,0,32}, ["yourpc-name"]}.
+
+% Do not monitor the hosts file
+{hosts_file, ""}.
+
+% Disable caching
+{cache_size, 0}.
+
+% Specify lookup method
+{lookup, [file, native]}.
